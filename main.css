@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Century Gothic;
+    text-align: center;
+}
+
+body input {
+    margin: 7px;
+    border-color: transparent;
+    border-radius: 2px;
+}
+
+#accept {
+    border-color: transparent;
+}
+
+#global {
+    margin: 10px;
+    height: 90px;
+    width: 300px;
+    background-color: #9c9c9c;
+    border-radius: 10px;
+}
+
+body span {
+    color: #000000;
+}
