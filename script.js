@@ -31,7 +31,7 @@ $accept.addEventListener('click', () => {
         $name.value = ""
         $description.value = ""
         let contentAlert = `
-        <center><div style="margin: 10px;width: 400px; height: 30px;background-color: #88ff88;border-radius: 5px;">Successfully added task</div></center>
+        <center><div style="margin: 10px;width: 360px; height: 30px;background-color: #88ff88;border-radius: 5px;">Successfully added task</div></center>
         `
         $alert.insertAdjacentHTML('beforeend', contentAlert)
         setTimeout(() => {$alert.innerHTML = ""},3000)
@@ -49,7 +49,7 @@ let notDone = (element) => {
 let delet = (element) => {
     element.parentElement.remove()
     let contentAlert = `
-    <center><div style="margin: 10px;width: 400px; height: 30px;background-color: #fc8f8f;border-radius: 5px;">Task successfully removed</div></center>
+    <center><div style="margin: 10px;width: 360px; height: 30px;background-color: #fc8f8f;border-radius: 5px;">Task successfully removed</div></center>
     `
     $alert.insertAdjacentHTML('beforeend', contentAlert)
     setTimeout(() => {$alert.innerHTML = ""},3000)
