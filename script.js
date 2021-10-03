@@ -7,7 +7,6 @@ let $alert = document.getElementById("alert");
 
 
 if (localStorage.getItem('content')) {
-}else {
     let get = localStorage.getItem('content');
     $dataUser.insertAdjacentHTML('beforeend', get);
 }
